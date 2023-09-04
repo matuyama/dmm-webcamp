@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.a{
+  width:100%;
+  height:50px;
+  background-color:red;
+}
+
+.b{
+  width:100%;
+  height:500px;
+  background-color:orange;
+}
+
+.c{
+  width:960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+  .c-1{
+    width:230px;
+    height:1400px;
+    background-color:palegreen;
+  }
+
+  .c-2{
+    width:500px;
+    height:1400px;
+    background-color:limegreen;
+  }
+
+  .c-3{
+    width:230px;
+    height:1400px;
+    background-color:palegreen;
+  }
+
+.d{
+  width:100%;
+  height:100px;
+  background-color:blue;
+}
