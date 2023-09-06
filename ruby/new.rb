@@ -1,11 +1,11 @@
 # インスタンスメソッド
 class Car
-  
+
   def move(direction,distance)
     self.turn(direction)
     self.run(distance)
   end
-  
+
   def run(distance)
     puts "車で#{distance}キロ走ります。"
   end
