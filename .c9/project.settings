@@ -53,10 +53,6 @@
             {
                 "name": "sites",
                 "path": "/sites"
-            },
-            {
-                "name": "Assignment1",
-                "path": "/Assignment1"
             }
         ]
     }
