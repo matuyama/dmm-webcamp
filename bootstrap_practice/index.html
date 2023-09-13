@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf8" />
+    <title>23章演習</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!--fluidで左右の余白なし-->
+    <div class="container-fluid">
+      <div class="header row px-3 py-4">
+        <div class="col-2">
+          <div class="logo">logo</div>
+        </div>
+        <!--offset-4で4分の空白を設置-->
+        <div class="col-6 offset-4">
+          <div class="row">
+            <div class="col-3">
+              <div class="header-content">menu1</div>
+            </div>
+            <div class="col-3">
+              <div class="header-content">menu2</div>
+            </div>
+            <div class="col-3">
+              <div class="header-content">menu3</div>
+            </div>
+            <div class="col-3">
+              <div class="header-content">menu4</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--justify-content-centerでflexの中央よせ-->
+    <div class="main row justify-content-center">
+      <div class="sidebar col-2">
+        sidebar
+      </div>
+
+      <div class="main-content col-5">
+        <!--1行に3つのカラム-->
+        <div class="row row-cols-3 p-3">
+          <div class="col p-3">
+            <div class="content">box</div>
+          </div>
+          <div class="col p-3">
+            <div class="content">box</div>
+          </div>
+          <div class="col p-3">
+            <div class="content">box</div>
+          </div>
+          <div class="col p-3">
+            <div class="content">box</div>
+          </div>
+          <div class="col p-3">
+            <div class="content">box</div>
+          </div>
+          <div class="col p-3">
+            <div class="content">box</div>
+          </div>
+          <div class="col p-3">
+            <div class="content">box</div>
+          </div>
+          <div class="col p-3">
+            <div class="content">box</div>
+          </div>
+          <div class="col p-3">
+            <div class="content">box</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer row pd-3 justify-content-center">
+      <div class="col-6 p-3">
+        <div class="footer-content">footer1</div>
+      </div>
+      <div class="col-6 p-3">
+        <div class="footer-content">footer2</div>
+      </div>
+    </div>
+
+    <div class="footer row pd-3 justify-content-center">
+      <div class="col-6 p-3">
+        <div class="footer-content">footer3</div>
+      </div>
+    </div>
+
+  </body>
+
+</html>
